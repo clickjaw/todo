@@ -1,7 +1,6 @@
 'use strict';
 // Create a "close" button and append it to each list item
-let myNodelist = document.getElementsByTagName("li
-");
+let myNodelist = document.getElementsByTagName("li");
 for (let i = 0; i < myNodelist.length; i++) {
   let span = document.createElement("span");
   let txt = document.createTextNode("\u00D7");
