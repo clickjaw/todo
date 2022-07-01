@@ -1,0 +1,73 @@
+body{
+    background-color: salmon;
+    display:grid;
+    /* flex-direction: column; */
+    justify-content:center;
+    font-family: 'Lobster Two', cursive;
+
+}
+
+#toDoListInputBox{
+    /* display: flex;
+    flex-direction: column; */
+    display:grid;
+    justify-content:center;
+    background-color:salmon;
+    text-align:center;
+    width:400px;
+}
+h2{
+    font-size:30px;
+    background-color: salmon;
+    margin:5px;
+}
+#toDoListInputBox input{
+
+    background-color: white;
+    border:white;
+    height:40px;
+    text-align:center;
+    width: 400px;
+    border-radius: 10px;
+    font-size:20px;
+}
+
+
+
+.close{
+    margin:10px;
+    font-size:20px;
+    display:inline;
+    align-content:right;
+    justify-content:right;
+    cursor:default;
+}
+
+
+
+#add{
+    background-color: rgb(119, 119, 239);
+    height:50px;
+    align-items: center;
+    display:flex;
+    justify-content:center;
+    border-radius: 10px;
+    margin-top: 2px;
+    /* border: solid black; */
+    color: white;
+    font-size:24px;
+    
+}
+
+
+#toDoList{
+    display:grid;
+    justify-content: left;
+    background-color: rgb(241, 196, 196);
+    height: 320px;
+    border-radius:10px;
+    font-size: 20px;
+    margin-top:5vh;
+    font-family: 'Nunito', cursive;
+
+}
