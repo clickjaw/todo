@@ -3,12 +3,12 @@
 // Create a new list item
 function newElement() {
   let li = document.createElement("li");
-  let toDoItem = document.getElementById("toDoItem").value;
+  let toDoItem = document.querySelector("#toDoItem").value;
   let t = document.createTextNode(toDoItem);
   li.appendChild(t);
-  document.getElementById('myUL').appendChild(li);
+  document.querySelector('#myUL').appendChild(li);
 
-  document.getElementById("toDoItem").value = "";
+  document.querySelector("#toDoItem").value = "";
 
  
 }
